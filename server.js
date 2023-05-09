@@ -151,7 +151,6 @@ viewEmployees = () => {
   db.query(sql, (err, rows) => {
     if (err) throw err
     console.table(rows);
-    console.log("Employees viewed!\n");
     mainPage();
   });
 };
@@ -373,9 +372,6 @@ updateEmpRole = () => {
               params[0] = role
               params[1] = employee
 
-
-              // console.log(params)
-
               const sql = `UPDATE employee SET role_id = ? WHERE id = ?`;
 
               db.query(sql, params, (err, result) => {
@@ -390,9 +386,8 @@ updateEmpRole = () => {
   });
 };
 
-// function to update an employee 
+// Update an employee 
 updateEmpManager = () => {
-  // get employees from employee table 
   const employeeSql = `SELECT * FROM employee`;
 
   db.query(employeeSql, (err, data) => {
@@ -450,9 +445,9 @@ updateEmpManager = () => {
   });
 };
 
-// View employee by department
+// Employee by department
 employeeDepartment = () => {
-  console.log('Showing employee by departments...\n');
+  console.log('Employee by departments:\n');
   const sql = `SELECT employee.first_name, 
                       employee.last_name, 
                       department.name AS department
@@ -561,9 +556,9 @@ deleteEmployee = () => {
   });
 };
 
-// view department budget 
+// Department budget 
 viewBudget = () => {
-  console.log('Showing budget by department...\n');
+  console.log('Department Budget:\n');
 
   const sql = `SELECT department_id AS id, 
                       department.name AS department,
