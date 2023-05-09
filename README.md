@@ -3,7 +3,7 @@
 ![License Badge](https://shields.io/badge/license-MIT-blue)
 
 ## Description
-This project is about creating a simple SVD logo with javascript.
+This project is about creating an employee database and tracking actions related.
 
 ### Table of Contents:
 * [Installation](#installation)
@@ -14,10 +14,10 @@ This project is about creating a simple SVD logo with javascript.
 * [Questions](#do-you-have-any-questions)
 
 ## Installation  
-You must download node.js, inquirer.js and jest.js
+You must download node.js, inquirer.js, console-table.js and mysql2.js
 
 ## Usage
-You should run "node index.js" in the terminal on the correct folder. Then the terminal will start asking you questions. Simply answer to them.
+You should install the dependencies using "npm install", then initialize the database running "mysql -u root -p". Run "node server.js" in the terminal on the correct folder. The terminal will prompt you different actions that can be done. Simply choose one.
 
 ## License
 https://mit-license.org/
@@ -27,7 +27,7 @@ Copy the repositories on your computer, make the changes you want to make, and t
 
 ## Tests
 Do as shown here to test the application:
-Same as usage instructions. So: "node index.js" in the terminal on the correct folder.
+Same as usage instructions. So: "node server.js" in the terminal on the correct folder.
 
 ## Do you have any questions
 Don't esitate to reach me at my GitHub [Purplelume](https://github.com/Purplelume) or reach out at my email address: sample.gmail.com
