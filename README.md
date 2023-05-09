@@ -33,4 +33,4 @@ Same as usage instructions. So: "node server.js" in the terminal on the correct 
 Don't esitate to reach me at my GitHub [Purplelume](https://github.com/Purplelume) or reach out at my email address: sample.gmail.com
 
 ## Video Walktrought
-[Link to the video]()
+[Link to the video](https://drive.google.com/file/d/1Zyb6yeiLoRIutNeSxs_GY2IQFVb10UXb/view)
